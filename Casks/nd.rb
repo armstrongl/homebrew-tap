@@ -3,7 +3,7 @@ cask "nd" do
   name "nd"
   desc "Coding agent asset management CLI tool"
   homepage "https://github.com/armstrongl/nd"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "nd" do
   on_macos do
     on_intel do
       url "https://github.com/armstrongl/nd/releases/download/v#{version}/nd_#{version}_darwin_amd64.tar.gz"
-      sha256 "6aa1e56c3091dae83b51b4d7305ee3f561a6a2b417a0eff17fb31edbb1af3fca"
+      sha256 "3bde956cc12e1f903d047965aa84c57b31964694da6289681e2aa748862bc092"
     end
     on_arm do
       url "https://github.com/armstrongl/nd/releases/download/v#{version}/nd_#{version}_darwin_arm64.tar.gz"
-      sha256 "87a80f641c94607bc515ece12071819ff1f1182d390b948a1917ee2b5a4a46e6"
+      sha256 "9e97605ae75e86e29456012b271e1f563a1ad37f06cb231daac5feaa8f94b1fd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/armstrongl/nd/releases/download/v#{version}/nd_#{version}_linux_amd64.tar.gz"
-      sha256 "796fb9f498da07a8fd785692b103b18809675f44ea10f6e830b6769c2afe7d37"
+      sha256 "675a4c0906a87bf1402ba87194bd840aabaeb90e3d24b623d7a159883b7bfca2"
     end
     on_arm do
       url "https://github.com/armstrongl/nd/releases/download/v#{version}/nd_#{version}_linux_arm64.tar.gz"
-      sha256 "e532a8af37fea8d4dfc82348afa0fad51df351beee1e96109a247e89640611d5"
+      sha256 "2948cb44b181b3962ffb817731a3b908fa38b96c8e3446664e840df3abc73b72"
     end
   end
 
